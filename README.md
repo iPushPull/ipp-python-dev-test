@@ -2,7 +2,7 @@
 
 This project is a partially implemented web API that returns historical stock market data (open, close, high and low prices) for stocks in the [Indian Nifty50](https://www.nseindia.com/) stock index.
 
-The project is implemented using python 3.9 and the [starlette](https://www.starlette.io/) ASGI web framework.
+The project is implemented using python 3.9 and the [starlette](https://www.starlette.io/) ASGI web framework. ( I've used Fast Api as it use Starlette librarty as core )
 
 ## Getting started
 * Clone or fork this repository
@@ -74,3 +74,14 @@ For example:
 * If you have questions please email support@ipushpull.com
 
 Thanks for taking our test!
+
+
+
+## Development notes
+
+* I've used Fast Api as it use Starlette librarty as core library and it allows to have a complete overview of the api (Swagger UI) by accessing the endpoint: `localhost:8888/nifty/stocks/{symbol}`
+* The requirements file has been updated as well. 
+* This code will create a database instance and persist in accordance to the required operations.
+* I've add an endpoint that returns all the allowed symbols.
+
+
