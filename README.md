@@ -79,7 +79,7 @@ Thanks for taking our test!
 
 ## Development notes
 
-* I've used Fast Api as it use Starlette librarty as core library and it allows to have a complete overview of the api (Swagger UI) by accessing the endpoint: `localhost:8888/nifty/stocks/{symbol}`
+* I've used Fast Api as it use Starlette librarty as core library and it allows to have a complete overview of the api (Swagger UI) by accessing the endpoint: `localhost:8888/docs`
 * The requirements file has been updated as well. 
 * This code will create a database instance and persist in accordance to the required operations.
 * I've add an endpoint that returns all the allowed symbols.
